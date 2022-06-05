@@ -3,11 +3,15 @@ lockfileVersion: 5.4
 specifiers:
   '@nestjs/common': ^8.4.6
   nest-winston: ^1.6.2
+  reflect-metadata: ^0.1.13
+  rxjs: ^7.5.5
   winston: ^3.7.2
 
 dependencies:
-  '@nestjs/common': 8.4.6
+  '@nestjs/common': 8.4.6_47vcjb2de6lyibr6g4enoa5lyu
   nest-winston: 1.6.2_pvseffxkgbrr2i44k3fa6q3exe
+  reflect-metadata: 0.1.13
+  rxjs: 7.5.5
   winston: 3.7.2
 
 packages:
@@ -25,7 +29,7 @@ packages:
       kuler: 2.0.0
     dev: false
 
-  /@nestjs/common/8.4.6:
+  /@nestjs/common/8.4.6_47vcjb2de6lyibr6g4enoa5lyu:
     resolution: {integrity: sha512-INp1ERDrLiQ4GwRc3zotTwBLZm2sIwcJwnBE2yXqsth17KijmoVmY8UB5Tares0IlwjsqlRFWkCX8uWE5rzbSA==}
     peerDependencies:
       cache-manager: '*'
@@ -43,6 +47,8 @@ packages:
     dependencies:
       axios: 0.27.2
       iterare: 1.2.1
+      reflect-metadata: 0.1.13
+      rxjs: 7.5.5
       tslib: 2.4.0
       uuid: 8.3.2
     transitivePeerDependencies:
@@ -290,7 +296,7 @@ packages:
       '@nestjs/common': ^5.0.0 || ^6.6.0 || ^7.0.0 || ^8.0.0
       winston: ^3.0.0
     dependencies:
-      '@nestjs/common': 8.4.6
+      '@nestjs/common': 8.4.6_47vcjb2de6lyibr6g4enoa5lyu
       cli-color: 2.0.2
       fast-safe-stringify: 2.1.1
       winston: 3.7.2
@@ -313,6 +319,16 @@ packages:
       inherits: 2.0.4
       string_decoder: 1.3.0
       util-deprecate: 1.0.2
+    dev: false
+
+  /reflect-metadata/0.1.13:
+    resolution: {integrity: sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==}
+    dev: false
+
+  /rxjs/7.5.5:
+    resolution: {integrity: sha512-sy+H0pQofO95VDmFLzyaw9xNJU4KTRSwQIGM6+iG3SypAtCiLDzpeG8sJrNCWn2Up9km+KhkvTdbkrdy+yzZdw==}
+    dependencies:
+      tslib: 2.4.0
     dev: false
 
   /safe-buffer/5.2.1:

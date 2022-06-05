@@ -1,19 +1,35 @@
 {
   "name": "nest-file-logger",
   "version": "0.1.0",
-  "description": "",
+  "description": "Log NestJS output to log files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nest",
+    "winston"
+  ],
+  "author": {
+    "name": "Charles Ancheta",
+    "email": "cancheta.dev@gmail.com",
+    "url": "https://charlesancheta.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbebe/nest-file-logger.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "@nestjs/common": "^8.4.6",
     "nest-winston": "^1.6.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.5",
     "winston": "^3.7.2"
   }
 }

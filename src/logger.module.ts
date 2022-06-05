@@ -1,5 +1,6 @@
 import { Module } from "@nestjs/common";
 import { WinstonModule } from "nest-winston";
+import "reflect-metadata";
 import { format, transports } from "winston";
 import { FileLogger } from "./file.logger.service";
 
